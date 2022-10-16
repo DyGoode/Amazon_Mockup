@@ -1,0 +1,80 @@
+body{
+    background-color: white;
+    font-family: Lucida Sans Unicode;
+    
+}
+
+.signin-box{
+    width: 360px;
+    height: 360px;
+    margin: auto;
+    background-color: white;
+    border-radius: 2px;
+    border: 2px solid gray;
+}
+
+.inside-box{
+    width: 80%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#amazon_image{
+    width: 100px;
+    height: 100px;
+    }
+
+.logo, .new-box, .create-box{
+    display: flex;
+    justify-content: center;
+    width: 360px;
+    margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+}
+
+.new-box::before, .new-box::after{
+    content: "";
+    width: 70px;
+    height: 1px;
+    background-color: rgb(158, 151, 151);
+    margin-top: 26px;
+    vertical-align: middle;
+}
+
+.new-box p {
+    margin-left: 10px;
+    
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.needright{
+    display: flex;
+    justify-content: space-between;
+}
+
+.continue{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    background-color: rgba(207, 136, 3, 0.829);
+    
+}
+
+.bottom-box{
+    justify-content: center;
+    width: 360px;
+    margin: auto;
+    
+     
+}
+
+.line{
+    border-bottom: 1px rgb(158, 151, 151);
+    display: block;
+}
